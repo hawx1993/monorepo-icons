@@ -4,6 +4,9 @@
   "main": "icons-react/dist/cjs/index.js",
   "module": "icons-react/dist/esm/index.js",
   "types": "icons-react/dist/esm/index.d.ts",
+  "files": [
+    "icons-react/dist/"
+  ],
   "scripts": {
     "start:demo": "pnpm --filter icons-demo dev",
     "start:doc": "dumi dev",
