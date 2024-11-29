@@ -1,0 +1,51 @@
+@import '../../../../../packages/heaven/src/style/palette.less';
+
+.color-rule-container {
+  .title {
+    font-size: 24px;
+    color: #4e4e4e;
+    font-weight: 600;
+  }
+  .main-color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .color-palette {
+      text-align: center;
+      margin: 0 20px 20px 0;
+      flex: 1;
+      width: calc(33.33% - 20px);
+      min-width: calc(33.33% - 20px);
+      max-width: calc(33.33% - 20px);
+      &:hover {
+        background-color: @geekblue-1 !important;
+        width: 100%;
+      }
+      .color-palette-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        cursor: pointer;
+        height: 140px;
+
+        .color-tips {
+          font-size: 24px;
+          color: #ffffff;
+        }
+        .color-txt {
+          font-size: 18px;
+          color: #ffffff;
+          font-weight: 400;
+        }
+      }
+      .description {
+        font-size: 18px;
+        color: #686868;
+        font-weight: 400;
+        margin-top: 14px;
+      }
+    }
+  }
+}

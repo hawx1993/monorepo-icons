@@ -1,0 +1,9 @@
+node_modules
+# ide
+.vscode
+.idea
+lib
+.DS_Store
+.dumi
+
+.umi
