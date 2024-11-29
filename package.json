@@ -19,7 +19,6 @@
     "release": "changeset version && pnpm install && changeset publish"
   },
   "license": "MIT",
-  "packageManager": "pnpm@8.7.0+sha1.4a6f863625170af87d027789f72662e0601ecb57",
   "devDependencies": {
     "@changesets/cli": "^2.27.9"
   },
