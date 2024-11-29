@@ -1,9 +1,9 @@
 {
   "name": "@byd-next/icons",
   "version": "0.0.30",
-  "main": "packages/icons-react/dist/cjs/index.js",
-  "module": "packages/icons-react/dist/esm/index.js",
-  "types": "packages/icons-react/dist/esm/index.d.ts",
+  "main": "icons-react/dist/cjs/index.js",
+  "module": "icons-react/dist/esm/index.js",
+  "types": "icons-react/dist/esm/index.d.ts",
   "scripts": {
     "start:demo": "pnpm --filter icons-demo dev",
     "start:doc": "dumi dev",
